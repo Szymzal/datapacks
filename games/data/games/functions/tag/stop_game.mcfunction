@@ -10,3 +10,7 @@ function games:tag/fix_teams
 schedule clear games:tag/display/show_roles
 schedule clear games:tag/item_pickup/prevent_pickup
 schedule clear games:tag/powerups/powerup_particles
+schedule clear games:tag/powerups/random_spawns
+schedule clear games:tag/powerups/spawn
+
+kill @e[type=item,tag=games.tag.effect.item]
