@@ -1,0 +1,2 @@
+execute at @e[type=item,tag=games.tag.effect.item] if entity @p[distance=0..5,team=!games.tag.runners] run data modify entity @e[type=item,tag=games.tag.effect.item,sort=nearest,limit=1] Owner set from entity @p[team=games.tag.runners] UUID
+schedule function games:tag/item_pickup/prevent_pickup 2t

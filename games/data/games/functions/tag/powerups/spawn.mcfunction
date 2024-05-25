@@ -1,0 +1,3 @@
+execute at @e[type=marker,tag=games.tag.effect,sort=random,limit=1] run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{custom_color:3064489},"minecraft:custom_data":{"tag":"games.tag.effect.item"}}},Tags:[games.tag.effect.item,games.tag.effect.item.new]}
+execute at @e[type=item,tag=games.tag.effect.item.new] if entity @e[type=item,tag=!games.tag.effect.item.new,distance=0..0.5] if entity @e[type=item,tag=games.tag.effect.item,distance=0..0.5] run kill @e[type=item,tag=games.tag.effect.item.new]
+tag @e[type=item,tag=games.tag.effect.item.new] remove games.tag.effect.item.new

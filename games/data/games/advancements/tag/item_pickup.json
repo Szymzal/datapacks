@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "predicates": {
+            "minecraft:custom_data": { 
+                "tag": "games.tag.effect.item" 
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player",
+              "team": "games.tag.runners"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "games:tag/item_pickup/root"
+  }
+}

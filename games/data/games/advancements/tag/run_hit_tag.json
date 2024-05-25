@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "type": "minecraft:player",
-              "team": "tagged"
+              "team": "games.tag.tagged"
             }
           }
         ],
@@ -19,7 +19,7 @@
             "entity": "this",
             "predicate": {
               "type": "minecraft:player",
-              "team": "runners"
+              "team": "games.tag.runners"
             }
           }
         ]
