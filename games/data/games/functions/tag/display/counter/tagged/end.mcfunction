@@ -1,0 +1,1 @@
+title @a[team=games.tag.tagged] title {"text":"Go HUNT!","color":"red"}

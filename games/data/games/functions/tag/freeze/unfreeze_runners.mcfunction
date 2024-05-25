@@ -1,0 +1,1 @@
+execute as @a[team=games.tag.runners] run function games:tag/freeze/unfreeze_players

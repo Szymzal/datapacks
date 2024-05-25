@@ -1,0 +1,1 @@
+execute as @s at @s run setblock ~ ~ ~ barrel{Lock:"§yes"}

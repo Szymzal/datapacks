@@ -1,0 +1,2 @@
+title @a[team=games.tag.runners] title {"text":""}
+title @a[team=games.tag.runners] subtitle [{"text":"Goniący zostaną uwolnieni za ","color":"gray"},{"text": "1","color":"red"},{"text":" sekundę","color":"gold"}]
