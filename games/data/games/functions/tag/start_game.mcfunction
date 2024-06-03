@@ -4,7 +4,7 @@ team join games.tag.tagged @r[tag=games.tag.user]
 team join games.tag.runners @a[tag=games.tag.user,team=]
 
 gamemode adventure @a[tag=games.tag.user]
-clear @a[tag=games.tag.user]
+#clear @a[tag=games.tag.user]
 
 function games:tag/fix_teams
 function games:tag/display/show_roles

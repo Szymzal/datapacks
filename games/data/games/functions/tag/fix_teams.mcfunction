@@ -7,5 +7,6 @@ execute as @a[team=games.tag.tagged] run attribute @s generic.movement_speed bas
 
 effect give @a[tag=games.tag.user] regeneration infinite 5 true
 effect give @a[tag=games.tag.user] saturation infinite 1 true
+effect give @a[tag=games.tag.user] night_vision infinite 0 true
 
-effect give @a[team=games.tag.runners] glowing infinite 1 true
+effect give @a[team=games.tag.runners] glowing infinite 0 true
