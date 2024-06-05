@@ -1,2 +1,1 @@
-function games:tag/display/counter/runners/first_countdown/numbers/10
-schedule function games:tag/display/counter/runners/first_countdown/end 10s
+scoreboard players set @a[tag=games.tag.user,team=games.tag.runners] games.tag.counter.1 10

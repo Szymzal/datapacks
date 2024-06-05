@@ -1,3 +1,1 @@
-function games:tag/display/counter/tagged/numbers/15
-schedule function games:tag/freeze/unfreeze_tagged 15s
-schedule function games:tag/display/counter/tagged/end 15s
+scoreboard players set @a[tag=games.tag.user,team=games.tag.tagged] games.tag.counter.1 15

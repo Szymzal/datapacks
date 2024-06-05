@@ -1,4 +1,6 @@
 scoreboard objectives add games.tag dummy
+scoreboard objectives add games.tag.counter.1 dummy
+scoreboard objectives add games.tag.counter.2 dummy
 
 team add games.tag.tagged
 team add games.tag.runners

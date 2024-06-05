@@ -1,2 +1,1 @@
-function games:tag/display/counter/runners/second_countdown/numbers/4
-schedule function games:tag/display/counter/runners/second_countdown/end 4s
+scoreboard players set @a[tag=games.tag.user,team=games.tag.runners] games.tag.counter.2 5
