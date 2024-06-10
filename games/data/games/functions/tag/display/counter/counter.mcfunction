@@ -9,5 +9,5 @@ execute as @a[team=games.tag.tagged,scores={games.tag.counter.1=1..2}] run title
 
 scoreboard players remove @a[tag=games.tag.user,scores={games.tag.counter.1=1..}] games.tag.counter.1 1
 
-execute as @a[team=games.tag.runners,scores={games.tag.counter.1=1}] run schedule function games:tag/display/counter/runners/first_countdown/end 2s
+execute as @a[team=!games.tag.tagged,scores={games.tag.counter.1=1}] run schedule function games:tag/display/counter/runners/first_countdown/end 2s
 execute as @a[team=games.tag.tagged,scores={games.tag.counter.1=1}] run schedule function games:tag/display/counter/tagged/end 2s
